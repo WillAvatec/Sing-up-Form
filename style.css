@@ -1,0 +1,24 @@
+.content, .logo-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.picture {
+    background-image: url(./assets/mathilde-langevin.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100vh;
+    border: 2px solid black;
+}
+
+.logo-container{
+    background-color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+}
