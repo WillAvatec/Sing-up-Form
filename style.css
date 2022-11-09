@@ -1,3 +1,7 @@
+:root {
+    --first-color:rgba(146, 171, 235, 0.7);
+}
+
 .content, .logo-container {
     display:flex;
     flex-direction: row;
@@ -15,7 +19,7 @@
 }
 
 .logo-container{
-    background-color: rgba(146, 171, 235, 0.7);
+    background-color: var(--first-color);
     align-items: center;
     justify-content: center;
     height: 100px;
