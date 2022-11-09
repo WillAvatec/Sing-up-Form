@@ -139,3 +139,7 @@ input:invalid {
 input:valid {
     border-color: green;
 }
+
+input:focus {
+    border-color: lightblue;
+}
