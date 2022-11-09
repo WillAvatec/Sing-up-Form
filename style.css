@@ -4,21 +4,34 @@
 }
 
 .picture {
+    position: static;
     background-image: url(./assets/mathilde-langevin.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
-    width: 100vh;
-    border: 2px solid black;
+    width: 40vw;
+    margin: 0;
+/*     border: 2px solid blac*/
 }
 
 .logo-container{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(146, 171, 235, 0.7);
     align-items: center;
     justify-content: center;
+    height: 100px;
+    margin-top: 20vh;
+}
+
+.logo > img {
+    width: 90px;
+    height: auto;
 }
 
 .logo-text {
     font-family: 'Space Grotesk', sans-serif;
-    color: black;
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+    text-shadow: 0 0 3px black;
 }
+
