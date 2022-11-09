@@ -131,3 +131,11 @@ input {
     border: 2px solid #E5E7EB;
     border-radius: 4px;    
 }
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
