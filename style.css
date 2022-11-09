@@ -4,6 +4,10 @@
     --height: auto;
 }
 
+body {
+    margin: 0;
+}
+
 .content, .logo-container {
     display:flex;
     flex-direction: row;
