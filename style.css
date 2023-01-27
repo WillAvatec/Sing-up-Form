@@ -2,6 +2,10 @@
     --first-color:rgba(77, 148, 87, 0.7);
     --bgColor: rgba(12, 94, 21, 0.7);
     --height: auto;
+    --invalid-color: tomato;
+	--invalid-border: 2px solid tomato;
+	--valid-color: rgb(69, 247, 108);
+	--valid-border: 2px solid rgb(69, 247, 108);
 }
 
 body {
@@ -143,4 +147,13 @@ input:focus {
 
 input:valid {
     border-color: green;
+}
+
+input:valid {
+	border: var(--valid-border);
+}
+
+input:invalid:focus,
+input:invalid:not(:placeholder-shown){
+	border: var(--invalid-border);
 }
